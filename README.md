@@ -10,3 +10,8 @@ The next step is to define some variables. First, the model that was used ([stab
 Next the training begins, with a technique of image augmentation described in the paper and the actual model fine-tuning loop. The training cell uses accelarate to call the training py file, and some hyperparameters need to be defined. Several of these are kept as recommended in the paper, some are not. Training iterations for example, it's possible to use between 100 and 200 iterations per training image. Since there are 9 Walter White images, let’s use 1800 iterations. The model was fine-tuned in a free-tier Google Collab instance, so some parameters like using 8bit adam enabling  gradient checkpointing and setting gradient accumulation_steps to 1 were used to reduce GPU memory consumption.
 
 The last part is the web application deployment of the fine-tuned model. Using the Gradio framework, it's possible to create an image generation web or notebook interface, where the user can input a custom prompt describing a situation or filter to apply to the entity used in the fine-tuning process. With Gradio, it's also possible to create a public server for anyone to access the model, but for basic usage reasons, the web server will run locally, as this is an evaluation project. 
+
+
+### References
+["DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation"](https://paperswithcode.com/paper/dreambooth-fine-tuning-text-to-image)
+[TryoLabs blog post](https://tryolabs.com/blog/2022/10/25/the-guide-to-fine-tuning-stable-diffusion-with-your-own-images)
