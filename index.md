@@ -13,5 +13,6 @@ The last part is the web application deployment of the fine-tuned model. Using t
 
 
 ### References
-["DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation"](https://paperswithcode.com/paper/dreambooth-fine-tuning-text-to-image)
-[TryoLabs blog post](https://tryolabs.com/blog/2022/10/25/the-guide-to-fine-tuning-stable-diffusion-with-your-own-images)
+1. ["DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation"](https://paperswithcode.com/paper/dreambooth-fine-tuning-text-to-image)
+
+2. [TryoLabs blog post](https://tryolabs.com/blog/2022/10/25/the-guide-to-fine-tuning-stable-diffusion-with-your-own-images)
