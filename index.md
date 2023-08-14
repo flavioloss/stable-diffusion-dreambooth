@@ -11,6 +11,14 @@ Next the training begins, with a technique of image augmentation described in th
 
 The last part is the web application deployment of the fine-tuned model. Using the Gradio framework, it's possible to create an image generation web or notebook interface, where the user can input a custom prompt describing a situation or filter to apply to the entity used in the fine-tuning process. With Gradio, it's also possible to create a public server for anyone to access the model, but for basic usage reasons, the web server will run locally, as this is an evaluation project. 
 
+Example 1: Walter White on a Van Gogh painting style
+
+![img-van-gogh](https://github.com/flavioloss/stable-diffusion-dreambooth/blob/main/images/output/wwhite_van_gogh.jpeg)
+
+Example 2: Walter White on a Cartton filter
+
+![img-cartoon](https://github.com/flavioloss/stable-diffusion-dreambooth/blob/main/images/output/wwhite-cartoon.jpeg)
+
 
 ### References
 1. ["DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation"](https://paperswithcode.com/paper/dreambooth-fine-tuning-text-to-image)
